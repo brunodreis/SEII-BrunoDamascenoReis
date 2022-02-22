@@ -1,1 +1,17 @@
-Texto do roteiro.
+Roteiro Toolchain
+
+
+O Toolchain é uma cadeia de ferramentas (um conjunto de ferramentas) de programação usadas para executar uma tarefa mais complexa de desenvolvimento. Ou também, para a criação
+de algum outro programa de computador, sendo ele ou não um conjunto de programas relacionados. 
+
+Normalmente, esse conjunto de ferramentas é executado continuamente para que ambiente de saída de cada ferramenta se torne o ambiente de inicialização. Ou, além disso, torne-se 
+a próxima entrada.
+
+Este termo também pode ser usado para especificar um conjunto de ferramentas relacionadas que não são necessariamente executados consecutivamente. 
+
+Uma  cadeia de ferramentas de desenvolvimento de software simples pode incluir um compilador e um linker (que transforma o código-fonte em um programa executável), uma biblioteca 
+(que fornece uma interface para o sistema operacional) e um depurador (usado para testar e depurar programas gerados).
+
+Há produtos de software complexos que requerem ferramentas para preparar diversos efeitos (animações, efeitos sonoros, música...) ou mesmo de ferramentas adicionais que, com certa
+combinação entre si, resultam em um recurso mais bem elaborado. Isso ger auma entrega mais complexa e completa aos conumidores. Umexemplo disso pode ser um simples jogo ou um 
+game.
