@@ -1,1 +1,17 @@
 Resumo de compilação cruzada
+
+A compilação cruzada ocorre quando um dispositivo compila o código-fonte para uma plataforma diferente daquela que compilou o código.
+Geralmente, temos um ambiente de desenvolvimento em uma arquitetura diferente daquela em que a placa foi compilada, estamos executando nosso programa.
+Para que nosso laptop ou computador desktop produza um binário, um programa que é executado em uma arquitetura diferente, e ocorre a compilação cruzada.
+
+Por exemplo, em nosso caso, um computador rodando Ubuntu Linux, usando um processador Intel ou AMD com arquitetura x86, compilará código para um computador embarcado rodando um 
+sistema Linux adaptativo rodando em uma arquitetura diferente. 
+ 
+É muito comum usar a compilação cruzada para trabalhar com sistemas embarcados, especialmente quando eles não têm o poder de processamento para suportar um compilador. 
+Para nós, é possível compilar no próprio sistema embarcado, porém, mesmo que os recursos não sejam muito limitados, não queremos desperdiçá-los. 
+
+Além disso, programar em um computador comum que fornece vários tipos diferentes de IDEs é muito melhor do que programar em um computador incorporado com recursos de interface 
+limitados. 
+ 
+Dessa forma, épreciso um kit de desenvolvimento de software (software development kit) SDK ou devkit. 
+Um SDK nada mais é do que um conjunto de ferramentas de desenvolvimento de software que ajudam a criar e compilar software para outro sistema.
