@@ -1,1 +1,50 @@
+A) Arquitetura básica:
+Hardware | Bootloader | Kernel Linux | Rootfs | Toolchain
 
+-> Hardware: 
+O hardware é o produto em si.
+
+
+-> Bootloader:
+Tem função de inicializar o hardware antes de executar o kernel, passando seus parâmetros; diagnosticar o hardware; carregar e gravar  sistema de arquivos na memória flash ou 
+cartão SD.
+
+Toda CPU possui um mecanismo de inicialização, que é responsável por carregar e executar o bootloader. Em algumas arquiteturas de CPU é necessário o uso de um bootloader de 
+primeiro estágio, no qual é carregado pelo processador e executado a partir de sua memória interna. Em alguns casos esse bootloader de primeiro estágio está concatenado junto ao 
+bootaloader.
+
+
+-> Kernel Linux:
+Este item é o núcleo do sistema, fazendo os gerenciamentos da CPU, memória e I/O, além da exportação dos serviços para as aplicações do usuário.
+Tem função de inicializar CPU, memória, device drivers, threads do kernel e escalonador de tarefas; configurar a memória virtual; e montar o rootfs; e chamar o processo init.
+
+
+-> Rootfs:
+É o sistema de arquivos principal. Após ter sido montado pelo kernel e ter o processo init iniciado, o rootfs utiliza seu mecanismo de inicialização. Além disso, é responsável por
+prover as bibliotecas de sistema e de usuário.
+
+
+-> Toolchain:
+É o conjunto de ferramentas de programação utilizadas para a criação de um produto. 
+Quando o host é diferente do target (alvo), o toolchain pode ser conhecido como cross-compiling toolchain.
+
+
+
+
+B) O projeto Yocto é um projeto colaborativo que prove ferramentas para a criação de um sistema Linux personalizado para sistemas embarcados, independente da arquitetura de 
+hardware, possibilitando uso de processadores de variadas plataformas, como ARM, MIPS, PowerPC and x86 e x86-64. 
+Os componentes do projeto Yocto podem ser usados para projetar, desenvolver, construir, debugar, simular e testar completamente uma pilha de software embarcado composta pelo 
+Kernel do Linux, o sistema Linux, X Window System, GNOME Mobile-based application frameworks, e o Qt frameworks.
+
+
+
+
+C)
+- Configurar o ambiente hospedeiro para desenvolvimento do Yocto
+- Criar uma copia local dos arquivos no sistema hospdeiro.
+- Estabelecer um repositorio de metadados no sistema
+- Criar uma BSP layer usando o script yocto-bsp 
+- Efetuar mudanças de configurações para a nova BSP layer
+- Modificar as recipes para a nova BSP layer
+- Preparar o build
+- Construir imagem
