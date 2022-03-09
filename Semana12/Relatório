@@ -13,9 +13,9 @@ Como as atualizações devem ser de fontes confiáveis, isso garante segurança 
 
 3)
 As atualizações OTA variam de acordo com o seu foco, podendo ser voltadas a Firmware (FOTA) ou a Software (SOTA).
-Quando estas atu relacionadas à aplicações que estão sendo executadas em determinado dispositivo, são atualizações de software ou as chamadas SOTA (Software Over The Air). 
-Essas atualizações são restritas a aplicações e componentes não-críticos no dispositivo.
-se essas atualizações alteram o sistema básico do dispositivo, tratam-se de atualizações de firmware, também chamadas FOTA (Firmware Over The Air) e são 
-bem mais complexas, uma vez que afetam diretamente o funcionamento do hardware e o desempenho geral do dispositivo
+Quando estas atualizações estão relacionadas à aplicações que estão sendo executadas em determinado dispositivo, sendo elas não-críticos ao aparelho, são atualizações SOTA 
+(Software Over The Air).
+Caso essas atualizações alterem o sistema básico do dispositivo, sendo mais complexas e envolvendo o funcionamento geral do dispositivo e hardware, enquadram-se como  atualizações 
+FOTA (Firmware Over The Air).
 
 4)
