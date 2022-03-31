@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>web lights</title>
+		<style>
+			table.GeneratedTable {
+			width: 75%;
+			background-color: #ffffff;
+			border-collapse: collapse;
+			border-width: 2px;
+			border-color: #000000;
+			border-style: solid;
+			color: #000000;
+			}
+
+			table.GeneratedTable td, table.GeneratedTable th {
+			border-width: 2px;
+			border-color: #000000;
+			border-style: solid;
+			padding: 3px;
+			}
+			.interItems {
+				text-align: center;
+			}
+			.interactiveButtons {
+				padding: 2em;
+				display: flex;
+				border-radius: 50%;
+			    justify-content: center;
+			    align-items: center;
+			    height: 200px;
+				display: inline-block;
+			}
+			.onButton {
+				background-color: #4CAF50;
+				width: 5em;
+				height: 5em;
+			}
+			.offButton {
+				background-color: #e7e7e7; 
+				color: black;
+				width: 5em;
+				height: 5em;
+			}
+		</style>
+		<link rel="icon" type="image/x-icon" href="pics/fav.png">
+	</head>
+	<body>
+		<div class='interItems'>
+			<h1>AutoHome!</h1>
+			<div class='interactiveButtons'>
+				<form action='#' method='POST'>
+		<table class="GeneratedTable">
+
+			<tbody>
+			  <tr>
+				<table class="GeneratedTable">
+					<tbody>
+					  <tr>
+						<td>Portão</td>
+					  </tr>
+					  <tr>
+						<td>Garagem
+							<button class='onButton' onclick="GarageOn()" name="Gon" value="Gon">on</button>
+							<button class='offButton' onclick="GarageOff()" name="Goff" value="Goff">off</button> 
+						</td>
+					  </tr>
+					</tbody>
+				  </table>
+				<td>
+			  <table class="GeneratedTable">
+				<tbody>
+				  <tr>
+					<td>
+						<table class="GeneratedTable">
+							<tbody>
+							  <tr>
+								<td>Sala
+								  <button class='onButton' onclick="SOn()" name="Son" value="Son">on</button>
+								  <button class='offButton' onclick="SOff()" name="Soff" value="Soff">off</button> 
+								</td>
+								<td>
+				<table class="GeneratedTable">
+				  <tbody>
+					<tr>
+					  <td>corredor</td>
+					</tr>
+					<tr>
+					  <td>Banheiro
+						  <button class='onButton' onclick="BanheiroOn()" name="Bon" value="Bon">on</button>
+						  <button class='offButton' onclick="BanheiroOff()" name="Boff" value="Boff">off</button> </td>
+					</tr>
+				  </tbody>
+				</table>
+  
+				
+				
+			
+								</td>
+								<td>Cosinha
+								  <button class='onButton' onclick="CosinhaOn()" name="Con" value="Con">on</button>
+								  <button class='offButton' onclick="CosinhaOff()" name="Coff" value="Coff">off</button> 
+									
+								</td>
+							  </tr>
+							</tbody>
+						  </table>
+  
+			  
+			  
+		  
+					</td>
+				  </tr>
+				  <tr>
+					<td>
+						<table class="GeneratedTable">
+							<tbody>
+							  <tr>
+								<td>Quarto 1
+									<button class='onButton' onclick="Q1On()" name="Q1on" value="Q1on">on</button>
+									<button class='offButton' onclick="Q1Off()" name="Q1off" value="Q1off">off</button> 
+								</td>
+								<td>Quarto 2
+									<button class='onButton' onclick="Q2On()" name="Q2on" value="Q2on">on</button>
+									<button class='offButton' onclick="Q2Off()" name="Q2off" value="Q2off">off</button> 
+								</td>
+								<td>Quarto 3
+									<button class='onButton' onclick="Q3On()" name="Q3on" value="Q3on">on</button>
+									<button class='offButton' onclick="Q3Off()" name="Q3off" value="Q3off">off</button> 
+			
+								</td>
+							  </tr>
+							</tbody>
+						  </table>
+
+						
+		  
+					</td>
+				  </tr>
+				</tbody>
+			  </table>
+
+			  
+			  
+					
+				</td>
+			  </tr>
+			</tbody>
+		  </table>
+
+		</form>
+	</div>
+</div>
+<button class='disconnectBtton' onclick="disconnect()" name="dis" value="dis">disconnect</button> 
+</body>
+</html>
